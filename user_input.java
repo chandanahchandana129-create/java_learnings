@@ -1,11 +1,11 @@
 import java.lang.System;
 import java.util.Scanner;
 
-class user_input_float{
+class user_input_double{
     public static void main(String[] args) {
         Scanner scn = new Scanner (System.in);
-        float f  = scn.nextFloat();
-        System.out.println("The  value of f is: "+f);
+        double f  = scn.nextFloat();
+        System.out.println("The  value of f is: "+double);
         
     }
 }
@@ -22,4 +22,3 @@ class addition_of_two_numbers{
 
 
     }
-}
